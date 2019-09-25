@@ -19,5 +19,8 @@ Pod::Spec.new do |s|
   s.source_files   = 'ios/*.{h,m}'
 
   s.dependency 'React'
-  s.dependency 'TwilioVideo', '~> 2.7.0'
+  # s.dependency 'TwilioVideo', '~> 2.7.0'
+  s.dependency 'TwilioVideo', '~> 2.10.1'
+  # s.dependency 'TwilioVideo', '~> 2.10.2' # coming soon...
+  # s.dependency 'TwilioVideo', '~> 3.0.0-beta4'
 end
